@@ -1,0 +1,62 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px ;
+}
+.logo {
+    width: 150px;
+}
+.navbar-menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 18px;
+    color: #49575e;
+}
+.navbar-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.signIn-btn {
+    background: transparent;
+    font-size: 16px;
+    color: #49575e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.signIn-btn:hover {
+    background-color: #fff4f2;
+}
+.active {
+    padding-bottom: 2px;
+    border-bottom:2px solid #49575e;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+.card {
+    position: relative;
+}
+.card-dot{
+    background-color: tomato;
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    cursor: pointer;
+}

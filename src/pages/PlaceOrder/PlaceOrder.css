@@ -1,0 +1,32 @@
+.placeOrder {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 150px;
+    margin-top: 100px;
+}
+.placeOrder-left{
+    width: 100%;
+    max-width: max(500px);
+}
+.placeOrder-left h2{
+    margin-bottom: 20px;
+}
+.placeOrder-left input {
+    width: 100%;
+    margin-bottom: 12px;
+    border: 1px solid rgb(189, 188, 188);
+    padding: 8px;
+    border-radius: 5px;
+    outline-color: tomato;
+}
+.placeOrder-left .multi-field {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 27px;
+}
+.placeOrder-right {
+    width: 100%;
+}
+
+
